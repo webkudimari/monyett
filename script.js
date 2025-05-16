@@ -19,10 +19,13 @@
       const password = document.getElementById("password").value;
       const errorMsg = document.getElementById("error-message");
 
-      if (jam !== 0 || menit !== 0) {
-        errorMsg.textContent = "Login hanya bisa dilakukan tepat pukul 00:00!";
-        return;
-      }
+     if (jam === 0 && menit >= 0) {
+  // lanjut cek login
+} else {
+  errorMsg.textContent = "Login hanya bisa dilakukan setelah pukul 00:00!";
+  return;
+}
+
 
       if (username === "Tian Zafran" && password === "eumm pap") {
         errorMsg.textContent = "";
