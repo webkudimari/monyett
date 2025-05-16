@@ -37,8 +37,9 @@
 
         document.querySelector(".login-box").innerHTML = `
           <h2>Selamat Ulang Tahun, Tian! 🎂🎉</h2>
-          <p>Semoga harimu penuh kebahagiaan, panjang umur, happy selalu, sayangg Tian 💜</p>
+          <p>Semoga harimu penuh kebahagiaan, panjang umur, sehat selalu, sayangg Tian 💜</p>
           <p>Gaada PAP Bugilss YAAA 😆😝</p>
+          <p>entar nyusul</p>
         `;
       } else {
         errorMsg.textContent = "Username atau password salah!";
