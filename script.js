@@ -29,7 +29,7 @@
 
       if (username === "Tian Zafran" && password === "eumm pap") {
         errorMsg.textContent = "";
-        alert("Login berhasil! Selamat ulang tahun 🎉");
+        alert("Login berhasil! Selamat ulang tahun, bayikk 🎉");
 
         const music = document.getElementById("bg-music");
         music.style.display = "block";
