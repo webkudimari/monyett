@@ -36,7 +36,7 @@
         music.play();
 
         document.querySelector(".login-box").innerHTML = `
-          <h2>Ciee yang lagi Ulang Tahun, Happy Birthday Tian! 🎂🎉</h2>
+          <h2>Ciee yang lagi Ulang Tahun, Happy Birthday YAAA! 🎂🎉</h2>
           <p>Semoga harimu penuh kebahagiaan, panjang umur, sehat selalu, sayangg Tian 💜</p>
           <p>Gaada PAP Bugilss YAAA 😆😝</p>
           <p>entar nyusul</p>
